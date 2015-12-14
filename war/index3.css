@@ -1,0 +1,293 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/temnyj-fon10.jpg);
+   background-attachment: fixed;
+   background-position: left center;
+   background-repeat: repeat;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   margin: 0;
+   padding: 0;
+}
+#jQueryAccordion1
+{
+   width: 100%;
+   height: 100%;
+}
+#jQueryAccordion1 .ui-accordion-header
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   padding: 10px 10px 10px 30px;
+}
+#jQueryAccordion1 h3
+{
+   display: block;
+}
+#jQueryAccordion1 .ui-accordion-header .ui-icon
+{
+   left: 10px;
+}
+#jQueryAccordion1 .ui-accordion-content
+{
+   padding: 0 0 0 0;
+   position: relative;
+}
+#Shape1
+{
+   border-width: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#jQueryButton1
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton1 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton1 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton1 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton1 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton1 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton1 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#Image1
+{
+   border: 0px #000000 solid;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#jQueryButton2
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton2 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton2 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton2 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton2 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton2 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton2 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#jQueryButton3
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton3 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton3 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton3 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton3 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton3 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton3 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#jQueryButton4
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton4 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton4 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton4 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton4 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton4 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton4 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#jQueryButton5
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton5 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton5 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton5 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton5 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton5 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton5 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#jQueryButton6
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+}
+#jQueryButton6 .ui-button
+{
+   position: absolute;
+}
+#jQueryButton6 .ui-button-text-icon .ui-button-icon-primary,
+#jQueryButton6 .ui-button-text-icons .ui-button-icon-primary,
+#jQueryButton6 .ui-button-icons-only .ui-button-icon-primary
+{
+   left: auto;
+   right: 10px;
+}
+#jQueryButton6 .ui-button-text-icons .ui-button-icon-secondary,
+#jQueryButton6 .ui-button-icons-only .ui-button-icon-secondary
+{
+   right: auto;
+   left: 10px;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Editbox2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button1
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #F0F0F0;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Editbox3
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}

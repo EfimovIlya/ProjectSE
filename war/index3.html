@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Project_WEB</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<link href="icontexto-inside-myspace_7628.ico" rel="shortcut icon">
+<link href="excite-bike/jquery.ui.all.css" rel="stylesheet" type="text/css">
+<link href="Безымянный3.css" rel="stylesheet" type="text/css">
+<link href="index3.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="jquery.ui.accordion.min.js"></script>
+<script type="text/javascript" src="jquery.ui.button.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   var jQueryAccordion1Opts =
+   {
+      event: 'click',
+      animate: 'linear',
+      header: 'h3',
+      heightStyle: 'fill'
+   };
+   $("#jQueryAccordion1").accordion(jQueryAccordion1Opts);
+   $("#jQueryButton1").button();
+   $("#jQueryButton2").button();
+   $("#jQueryButton3").button();
+   $("#jQueryButton4").button();
+   $("#jQueryButton5").button();
+   $("#jQueryButton6").button();
+});
+</script>
+<script>
+ 
+  $( function() {
+    $('#calc').click( function() {
+    	var var1 = $('#Editbox1').val();
+    	var var2 = $('#Editbox2').val();
+    	var var3=$('#Editbox3').val();
+    //	var operation = $('#operation').val();
+    	var varz=3;
+      $('#result').load( "/project_webf?var1="+var1+"&var2="+var2+"&var3="+var3+"&varz="+varz);
+    } );
+ 		
+  } );
+ 
+</script>
+</head>
+<body>
+<div id="wb_jQueryAccordion1" style="position:absolute;left:27px;top:206px;width:292px;height:349px;z-index:6;">
+<div id="jQueryAccordion1">
+<h3>Практическое задание 3.1-3.4</h3>
+<div>
+<input type="button" id="jQueryButton1" onclick="window.location.href='Index1.html'" name="But1" value="Вывод информации на консоль" style="position:absolute;left:17px;top:16px;width:252px;height:28px;z-index:0;">
+<input type="button" id="jQueryButton2" onclick="window.location.href='Index2.html'" name="button2" value="Поиск ближайшего к 10" style="position:absolute;left:19px;top:55px;width:250px;height:31px;z-index:1;">
+<input type="button" id="jQueryButton3" onclick="window.location.href='Index3.html'" name="Button3" value="Поиск корней квадратного ур-я" style="position:absolute;left:19px;top:98px;width:250px;height:34px;z-index:2;">
+</div>
+<h3>Практическое задание 4.1-4.2</h3>
+<div>
+</div>
+<h3>Задание с классами.</h3>
+<div>
+<input type="button" id="jQueryButton4" name="But5" value="Аэропорт" style="position:absolute;left:10px;top:55px;width:266px;height:35px;z-index:3;">
+</div>
+<h3>Задание с исключениями</h3>
+<div>
+<input type="button" id="jQueryButton5" name="but6" value="Исключения" style="position:absolute;left:19px;top:54px;width:247px;height:33px;z-index:4;">
+</div>
+<h3>Чтение файла с преобразованием в CSV.</h3>
+<div>
+<input type="button" id="jQueryButton6" name="but7" value="Преобразование" style="position:absolute;left:19px;top:51px;width:256px;height:39px;z-index:5;">
+</div>
+</div>
+</div>
+<div id="wb_Shape1" style="position:absolute;left:353px;top:206px;width:900px;height:866px;filter:alpha(opacity=82);-moz-opacity:0.82;opacity:0.82;z-index:7;">
+<img src="images/img0001.png" id="Shape1" alt="" style="width:900px;height:866px;"></div>
+<div id="wb_Text1" style="position:absolute;left:573px;top:228px;width:542px;height:33px;z-index:8;text-align:left;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:29px;">Найти корни квадратного уровнения</span></div>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1253px;height:184px;z-index:9;">
+<a href="./index.html"><img src="images/sn.PNG" id="Image1" alt=""></a></div>
+<div id="wb_Text2" style="position:absolute;left:815px;top:310px;width:146px;height:23px;z-index:10;text-align:left;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:20px;">X+</span></div>
+<input type="text" id="Editbox1" style="position:absolute;left:562px;top:310px;width:94px;height:19px;line-height:19px;z-index:11;" name="Editbox1" value="">
+<div id="wb_Text3" style="position:absolute;left:664px;top:310px;width:146px;height:23px;z-index:12;text-align:left;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:20px;">X^2+</span></div>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb10.png" alt="WYSIWYG Web Builder" style="position:absolute;left:581px;top:1112px;border-width:0;z-index:250"></a>
+<input type="text" id="Editbox2" style="position:absolute;left:714px;top:310px;width:94px;height:19px;line-height:19px;z-index:14;" name="Editbox1" value="">
+<input type="submit" id="calc" name="calc" value="Определить" style="position:absolute;left:605px;top:375px;width:96px;height:25px;z-index:15;">
+<div id="wb_Text4" style="position:absolute;left:714px;top:377px;width:500px;height:50px;z-index:16;text-align:left;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:20px;">Результат   </span><b><span style="color:red; height:50px;font-family:Arial;font-size:20px;" id="result"></span></b></div>
+<input type="text" id="Editbox3" style="position:absolute;left:845px;top:310px;width:94px;height:19px;line-height:19px;z-index:17;" name="Editbox1" value="">
+<div id="wb_Text5" style="position:absolute;left:941px;top:310px;width:146px;height:23px;z-index:18;text-align:left;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:20px;"> =0</span></div>
+</body>
+</html>
